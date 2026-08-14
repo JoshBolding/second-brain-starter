@@ -30,6 +30,12 @@ claude/
   scheduled-tasks/weekly-cleanup/   # Prompt for the weekly cleanup job
 ```
 
+## Prerequisites
+
+- **[Obsidian](https://obsidian.md)** (free) — the app you'll use to read and write notes. The vault is plain Markdown, so the automation below works on raw files either way; Obsidian is the human-facing layer (wikilinks, graph, daily notes).
+- **[Claude Code](https://claude.com/claude-code)** — runs the skill and the two scheduled jobs. Any agent that can read/write files on a schedule can substitute, but the included prompts are written for Claude Code.
+- **[ripgrep](https://github.com/BurntSushi/ripgrep)** (optional) — makes the bundled search scripts fast; the PowerShell script falls back to built-in search without it.
+
 ## Setup
 
 ### 1. Create your vault
