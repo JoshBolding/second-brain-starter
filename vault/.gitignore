@@ -1,0 +1,9 @@
+# Sensitive quarantine — never versioned, never read by agents
+99 Sensitive Review/*
+!99 Sensitive Review/README.md
+
+# Obsidian workspace state (device-specific)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
